@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/img/fundo-normal.jpg");
+  background-position: initial;
+}
+
+.container {
+  width: 350px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.452);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buscar {
+  text-align: center;
+  padding: 30px;
+}
+
+.buscar input {
+  text-align: center;
+  width: 300px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.temp {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.temp img {
+  max-width: 150px;
+  display: inline-block;
+}
+
+.temp h2 {
+  width: 150px;
+  display: inline-block;
+}
+
+.dados {
+  margin: 10px;
+  text-align: center;
+}
+
+#box {
+  background-color: rgba(0, 0, 0, 0.534);
+  margin: 2px;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.dados h5 {
+  color: white;
+  display: flex;
+  padding: 15px;
+}

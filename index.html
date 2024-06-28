@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather 2.0</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="buscar">
+        <input type="text" />
+      </div>
+      <div class="temp">
+        <img src="img/logo-tempo.png" alt="logo do tempo" />
+        <h2>Temp Agora</h2>
+      </div>
+
+      <div class="dados">
+        <h5 id="box">Temp MAX:</h5>
+        <h5 id="box">Temp MIN:</h5>
+        <h5 id="box">Humidade:</h5>
+        <h5 id="box">Tempo:</h5>
+        <h5 id="box">Vento:</h5>
+        <h5 id="box">Outro:</h5>
+      </div>
+    </div>
+
+    <script src="js/api.js"></script>
+  </body>
 </html>
